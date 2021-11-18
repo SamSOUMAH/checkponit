@@ -1,0 +1,50 @@
+ALGORITHME TABLE
+SOLUTION N°1 
+
+Tableau Nombre1[n] en Numérique
+Tableau Nombre2[n] en Numérique
+
+Variables 
+Som<-0,i,j en Numérique
+
+Début
+Pour i <- 0 à n
+  Ecrire("Entrez le nombre n°", i)
+  Lire Nombre1[i]
+
+  Pour j <- 0 à n
+  Ecrire ("Entrez le nombre n°", j)
+  Lire Nombre2[j]
+
+  pour i<- 0 à n 
+  pour j<- 0 à n
+  si Nombre1[i]<>Nombre2[j]
+  Som=Som+Nombre1[i]
+  Ecrire("la somme des valeur identique des deux tableaux est = som")
+  
+  
+  pour j<- 0 à n 
+  pour i<- 0 à n
+  si Nombre2[j]<>Nombre2[i]
+  Som=Som+Nombre2[j]
+  Ecrire("la somme des valeur identique des deux tableaux est = som")
+  FinSi
+  FinPour
+  FinPour
+
+
+  SOLUTION N°2
+
+TVariables i, N en Numérique
+Tableaux T1[], T2[], T3[] en Numérique
+Debut
+ je  suppose que T1 et T2 comptent N éléments, et qu’ils sont déjà été saisis ou complete
+
+ Redim T3[N-1]
+
+Pour i ← 0 à N - 1
+  T3[i] ← T1[i] + T2[i]
+i Suivant
+
+FinPour
+Fin
