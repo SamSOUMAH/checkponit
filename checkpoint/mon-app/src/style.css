@@ -1,0 +1,8 @@
+.App {
+    border:solid 1px black;
+    max-width:100vw;
+    text-align: center;
+    color:red;
+    display: flex;
+    flex-direction: column;
+  }
