@@ -3,17 +3,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import './style.css';
-import Adresse from './Components/Profile/Adresse';
-import FullName from './Components/Profile/FullName';
-import ProfilPhoto from './Components/Profile/ProfilPhoto';
+import SousProfile from './Profil/SousProfile'
 
 function App() {
   
   return (
     <div className="App">
-        <FullName></FullName>
-        <ProfilPhoto></ProfilPhoto>
-        <Adresse></Adresse>
+        <SousProfile
+        fullName={'Alkaly SOUMAH'}
+        Bio={"FullStack"}
+        Profesion={"staudent a Gomycode"}
+       
+        />
         
     </div>
   );
